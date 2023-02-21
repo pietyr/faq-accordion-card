@@ -1,0 +1,26 @@
+input.toggle {
+	display: none;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+label img {
+	transition: transform 0.25s linear;
+}
+
+div.collapsible-content {
+	max-height: 0px;
+	overflow: hidden;
+	transition: max-height 0.25s ease-in-out;
+}
+
+input.toggle:checked + label + div.collapsible-content {
+	max-height: 100vh;
+}
+
+input.toggle:checked + label > img {
+	transform: rotateX(180deg);
+}
