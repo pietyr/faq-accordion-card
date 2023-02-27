@@ -61,4 +61,4 @@ Users should be able to:
 ## Author
 
 -   GitHub [@pietyr](https://github.com/pietyr)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/pietyr)
+-   Frontend Mentor - [@pietyr](https://www.frontendmentor.io/profile/pietyr)
