@@ -144,7 +144,18 @@ input.toggle:checked + label > img {
 }
 
 footer {
+	font-size: 1rem;
 	flex: 0 1;
+	color: var(--light-grayish-blue);
+	margin-bottom: 0.5rem;
+	text-align: center;
+	padding: 0 4rem;
+}
+
+footer a {
+	font-weight: 700;
+	text-decoration: none;
+	color: var(--soft-red);
 }
 
 @media (min-width: 600px) {
@@ -198,5 +209,9 @@ footer {
 @media (hover: hover) {
 	label:hover {
 		color: var(--soft-red);
+	}
+
+	footer a:hover {
+		color: var(--dark-desaturated-blue);
 	}
 }
