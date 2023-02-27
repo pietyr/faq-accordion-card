@@ -193,3 +193,9 @@ footer {
 		text-align: left;
 	}
 }
+
+@media (hover: hover) {
+	label:hover {
+		color: var(--soft-red);
+	}
+}
