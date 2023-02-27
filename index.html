@@ -20,143 +20,157 @@
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body>
-		<div class="card-wrapper">
-			<header>
-				<picture class="header-bg">
-					<source
-						media="(max-width: 699px)"
-						srcset="./images/bg-pattern-mobile.svg"
-					/>
-					<source
-						media="(min-width: 700px)"
-						srcset="./images/bg-pattern-desktop.svg"
-					/>
-					<img src="./images/bg-pattern-desktop.svg" alt="" />
-				</picture>
-				<picture class="header-illustration">
-					<source
-						media="(max-width: 699px)"
-						srcset="./images/illustration-woman-online-mobile.svg"
-					/>
-					<source
-						media="(min-width: 700px)"
-						srcset="./images/illustration-woman-online-desktop.svg"
-					/>
+		<div class="card-container">
+			<div class="card-wrapper">
+				<header>
+					<picture class="header-bg">
+						<source
+							media="(max-width: 699px)"
+							srcset="./images/bg-pattern-mobile.svg"
+						/>
+						<source
+							media="(min-width: 700px)"
+							srcset="./images/bg-pattern-desktop.svg"
+						/>
+						<img src="./images/bg-pattern-desktop.svg" alt="" />
+					</picture>
+					<picture class="header-illustration">
+						<source
+							media="(max-width: 699px)"
+							srcset="
+								./images/illustration-woman-online-mobile.svg
+							"
+						/>
+						<source
+							media="(min-width: 700px)"
+							srcset="
+								./images/illustration-woman-online-desktop.svg
+							"
+						/>
+						<img
+							src="./images/illustration-woman-online-desktop.svg"
+							alt=""
+						/>
+					</picture>
 					<img
-						src="./images/illustration-woman-online-desktop.svg"
+						src="./images/illustration-box-desktop.svg"
 						alt=""
+						class="header-box"
 					/>
-				</picture>
-				<img
-					src="./images/illustration-box-desktop.svg"
-					alt=""
-					class="header-box"
-				/>
-			</header>
-			<main>
-				<h1>FAQ</h1>
-				<ul>
-					<li>
-						<div class="wrap-collapsible">
-							<input
-								type="checkbox"
-								name=""
-								id="collapsible1"
-								class="toggle"
-							/>
-							<label for="collapsible1">
-								<span>How many team members can I invite?</span>
-								<img src="./images/icon-arrow-down.svg" alt=""
-							/></label>
-							<div class="collapsible-content">
-								<p>
-									You can invite up to 2 additional users on
-									the Free plan. There is no limit on team
-									members for the Premium plan.
-								</p>
+				</header>
+				<main>
+					<h1>FAQ</h1>
+					<ul>
+						<li>
+							<div class="wrap-collapsible">
+								<input
+									type="checkbox"
+									name=""
+									id="collapsible1"
+									class="toggle"
+								/>
+								<label for="collapsible1">
+									<span
+										>How many team members can I
+										invite?</span
+									>
+									<img
+										src="./images/icon-arrow-down.svg"
+										alt=""
+								/></label>
+								<div class="collapsible-content">
+									<p>
+										You can invite up to 2 additional users
+										on the Free plan. There is no limit on
+										team members for the Premium plan.
+									</p>
+								</div>
 							</div>
-						</div>
-					</li>
-					<li>
-						<div class="wrap-collapsible">
-							<input
-								type="checkbox"
-								name=""
-								id="collapsible2"
-								class="toggle"
-							/>
-							<label for="collapsible2"
-								>What is the maximum file upload size?</label
-							>
-							<div class="collapsible-content">
-								<p>
-									No more than 2GB. All files in your account
-									must fit your allotted storage space.
-								</p>
+						</li>
+						<li>
+							<div class="wrap-collapsible">
+								<input
+									type="checkbox"
+									name=""
+									id="collapsible2"
+									class="toggle"
+								/>
+								<label for="collapsible2"
+									>What is the maximum file upload
+									size?</label
+								>
+								<div class="collapsible-content">
+									<p>
+										No more than 2GB. All files in your
+										account must fit your allotted storage
+										space.
+									</p>
+								</div>
 							</div>
-						</div>
-					</li>
-					<li>
-						<div class="wrap-collapsible">
-							<input
-								type="checkbox"
-								name=""
-								id="collapsible3"
-								class="toggle"
-							/>
-							<label for="collapsible3"
-								>How do I reset my password?</label
-							>
-							<div class="collapsible-content">
-								<p>
-									Click “Forgot password” from the login page
-									or “Change password” from your profile page.
-									A reset link will be emailed to you.
-								</p>
+						</li>
+						<li>
+							<div class="wrap-collapsible">
+								<input
+									type="checkbox"
+									name=""
+									id="collapsible3"
+									class="toggle"
+								/>
+								<label for="collapsible3"
+									>How do I reset my password?</label
+								>
+								<div class="collapsible-content">
+									<p>
+										Click “Forgot password” from the login
+										page or “Change password” from your
+										profile page. A reset link will be
+										emailed to you.
+									</p>
+								</div>
 							</div>
-						</div>
-					</li>
-					<li>
-						<div class="wrap-collapsible">
-							<input
-								type="checkbox"
-								name=""
-								id="collapsible4"
-								class="toggle"
-							/>
-							<label for="collapsible4"
-								>Can I cancel my subscription?</label
-							>
-							<div class="collapsible-content">
-								<p>
-									Yes! Send us a message and we’ll process
-									your request no questions asked.
-								</p>
+						</li>
+						<li>
+							<div class="wrap-collapsible">
+								<input
+									type="checkbox"
+									name=""
+									id="collapsible4"
+									class="toggle"
+								/>
+								<label for="collapsible4"
+									>Can I cancel my subscription?</label
+								>
+								<div class="collapsible-content">
+									<p>
+										Yes! Send us a message and we’ll process
+										your request no questions asked.
+									</p>
+								</div>
 							</div>
-						</div>
-					</li>
-					<li>
-						<div class="wrap-collapsible">
-							<input
-								type="checkbox"
-								name=""
-								id="collapsible5"
-								class="toggle"
-							/>
-							<label for="collapsible5"
-								>Do you provide additional support?</label
-							>
-							<div class="collapsible-content">
-								<p>
-									Chat and email support is available 24/7.
-									Phone lines are open during normal business
-									hours.
-								</p>
+						</li>
+						<li>
+							<div class="wrap-collapsible">
+								<input
+									type="checkbox"
+									name=""
+									id="collapsible5"
+									class="toggle"
+								/>
+								<label for="collapsible5"
+									>Do you provide additional support?</label
+								>
+								<div class="collapsible-content">
+									<p>
+										Chat and email support is available
+										24/7. Phone lines are open during normal
+										business hours.
+									</p>
+								</div>
 							</div>
-						</div>
-					</li>
-				</ul>
-			</main>
+						</li>
+					</ul>
+				</main>
+			</div>
 		</div>
 		<footer>
 			Challenge by
